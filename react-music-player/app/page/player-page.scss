@@ -1,0 +1,93 @@
+/*
+* @Author: yucho
+* @Date:   2018-03-26 14:41:00
+* @Last Modified by:   yucho
+* @Last Modified time: 2018-04-01 18:44:34
+*/
+.player-container {
+    width: 70%;
+    margin: 80px auto;
+
+    .music-control {
+        float: left;
+        width: 70%;
+        .music-name {
+            margin-top: 30px;
+            font-size: 35px;
+            color: #666;
+            letter-spacing: .5px;
+            font-weight: bold;
+        }
+        .turnList {
+            font-size: 22px;
+            color: #4BB81F;
+            text-decoration: none;
+        }
+        .singer {
+            margin-top: 15px;
+            font-size: 18px;
+        }
+        .time-volume {
+            margin: 30px 0 8px 0;
+            .time {
+                display: inline-block;
+                font-size: 16px;
+                color: #666;
+                margin-right: 20px;
+            }
+            .volume {
+                vertical-align: middle;
+                display: inline-block;
+                height: 15px;
+                overflow: hidden;
+                img {
+                    max-width: 15px;
+                    margin-top: -105px;
+                }
+                .volume-progress {
+                    display: none;
+                    margin-left: 5px;
+                    width: 50px;
+                }
+            }
+            .volume:hover .volume-progress {
+                display: inline-block;
+            }
+        }
+        .control {
+            margin-top: 30px;
+            height: 40px;
+            overflow: hidden;
+            img {
+                display: block;
+                max-width: 40px;
+                margin-right: 20px;
+                float: left;
+            }
+        }
+    }
+    .music-cover {
+        width: 220px;
+        height: 220px;
+        float: right;
+        margin-top: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+        img {
+            width: 220px;
+            height: 220px;
+        }
+    }
+}
+
+#isPlaying {
+    margin-top: -80px;
+}
+
+#next {
+    margin-top: -40px;
+}
+
+#mode {
+    float: right;
+}

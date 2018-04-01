@@ -1,0 +1,22 @@
+/*
+* @Author: yucho
+* @Date:   2018-03-29 18:43:02
+* @Last Modified by:   yucho
+* @Last Modified time: 2018-03-29 19:13:31
+*/
+.component-listItem {
+    padding: 8px 20px;
+    border-bottom: 1px solid #999;
+    font-size: 24px;
+    color: #555;
+    overflow: hidden;
+    .music-info {
+        float: left;
+    }
+    .playing {
+        color: #4BB81F;
+    }
+    .delete {
+        float: right;
+    }
+}

@@ -1,0 +1,16 @@
+/*
+* @Author: yucho
+* @Date:   2018-03-24 00:26:20
+* @Last Modified by:   yucho
+* @Last Modified time: 2018-03-29 17:46:23
+*/
+.player-progress {
+    width: 100%;
+    height: 3px;
+    background: #ddd;
+    cursor: pointer;
+    .music-playing {
+        width: 20%;
+        height: 5px;
+    }
+}
